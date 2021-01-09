@@ -23,3 +23,15 @@ body{
     margin: auto;
     padding: 2px;
 }
+.clear { clear: both;}
+
+
+.Tasklist{
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    background-color: beige;
+    width: 33%;
+    border-radius: 25px;
+    margin: auto;
+    padding: 2px;
+}
