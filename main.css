@@ -1,3 +1,7 @@
+body{
+    background-color: blueviolet;
+}
+
 .hellotxt{
     text-align: center;
     font-family: Arial, sans-serif; 
@@ -8,6 +12,14 @@
     padding: 2px;
 }
 
-body{
-    background-color: blueviolet;
+.clear { clear: both;}
+
+.container{
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    background-color: beige;
+    width: 33%;
+    border-radius: 25px;
+    margin: auto;
+    padding: 2px;
 }
