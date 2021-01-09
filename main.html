@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link href="main.css" rel="stylesheet">
+        <script src="main.js"></script>
     </head>
     <body>
         <div class="hellotxt">
@@ -15,21 +16,13 @@
 
         <div class="container">
             <p>Here will be container for adding new notes!</p>
+            <input type="text" id="input" placeholder="Write your task..."></input>
+            <button onclick="addElement()"> ADD </button>
 
         </div>
 
-        <div class="clear"></div>
-        <h2></h2>
+        <ul id="mylist">
 
-        <div class="TaskList">
-            <h2>Your tasks!</h2>
-            <p>1st task</p>
-            <p>2nt task</p>
-            <p>3rd task</p>
-            <p>4th task</p>
-
-        </div>
-
-
+        </ul>
     </body>
 </html>

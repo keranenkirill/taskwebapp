@@ -1,5 +1,6 @@
+ 
 body{
-    background-color: blueviolet;
+    background-color: beige;
 }
 
 .hellotxt{
@@ -23,15 +24,12 @@ body{
     margin: auto;
     padding: 2px;
 }
-.clear { clear: both;}
 
-
-.Tasklist{
+#mylist{
     text-align: center;
-    font-family: Arial, sans-serif; 
-    background-color: beige;
-    width: 33%;
-    border-radius: 25px;
-    margin: auto;
-    padding: 2px;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    font-size: 30px;
+    
 }
