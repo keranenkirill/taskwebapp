@@ -98,6 +98,12 @@ h2{
     outline: none;
 }
 
+.delbutton:hover{
+    color: red;
+    font-weight: bold;
+
+}
+
 
 #clock{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
