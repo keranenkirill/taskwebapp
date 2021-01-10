@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <link href="main.css" rel="stylesheet">
         <script src="main.js"></script>
+        <link href="poupmsg/style.css" rel="stylesheet">
+        <script src="poupmsg/app.js"></script>
         <script src="clock.js"></script>
     </head>
     <body>
@@ -24,6 +26,32 @@
         </div>
 
         <ul id="mylist"></ul>
-
+        <div class="openBtn">
+            <button class="openButton" onclick="openForm()"><strong>Contact us!</strong></button>
+          </div>
+          <div class="loginPopup">
+            <div class="formPopup" id="popupForm">
+              <form action="/action_page.php" class="formContainer">
+                <h2>Please contact me</h2>
+                <div>
+                  <label for="name">Name</label></br>
+                  <input id="name" name="name">
+                </div>
+                <div>
+                  <label for="email">Email</label><br>
+                  <input type="email" id="email" name="email">
+                </div>
+                <!-- <input type="text" id="email" placeholder="Your Email" name="email" required> -->
+                <div>
+                  <label for="message">Message</label><br>
+                  <textarea id="message" name="message"></textarea>
+                </div>
+                <!-- <input type="password" id="psw" placeholder="Your Password" name="psw" required> -->
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </form>
+            </div>
+          </div>
+        
     </body>
 </html>
