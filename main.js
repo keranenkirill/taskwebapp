@@ -2,16 +2,22 @@
 function addElement(){
     //creating list element
     var li = document.createElement("li");
+    li.className="tasks";
 
     //creating delete button
     var delButton = document.createElement("button");
     delButton.innerText="Delete";
     delButton.onclick=delEelement;
+    delButton.className="delbutton";
 
     //storing input field value into variable 
     var inputValue = document.getElementById("input").value;
 
-    //creating text node for adding to list element
+    if (inputValue == ""){
+        alert("must write something...");
+    }else{
+
+        //creating text node for adding to list element
     var text = document.createTextNode(inputValue);
 
     //list element appends text node value
@@ -22,6 +28,10 @@ function addElement(){
     document.getElementById("mylist").appendChild(li);
     //updating textfield value to none
     document.getElementById("input").value = "";
+
+    }
+
+    
 }
 
 //function for deleting elements from unordered list
