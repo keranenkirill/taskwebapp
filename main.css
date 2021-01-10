@@ -3,15 +3,19 @@ body{
     background-color: beige;
 }
 
+.hellotxt, .button, .container, .tasks, .delbutton, #timebutton, #mylist, #input, #button, #clock{
+    font-family:Courier New;
+    font-size: 22px;
+
+}
+
 .hellotxt, .container, #mylist{
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: beige;
     width: 33%;
     border-radius: 25px;
     margin: auto;
     padding: 2px;
-    font-size: 30px;
 }
 
 
@@ -24,11 +28,13 @@ body{
     display: block;
     border-radius: px;
     border-color: red;
+    text-decoration: underline;
+
 }
 
 
-#input, #button{
-    font-size: 35px;
+#input, #button, #timebutton{
+    /* font-size: 35px; */
     border-radius: 25px;
     border-color: red;
     background-color:pink;
@@ -46,7 +52,7 @@ h2{
     position: relative;
     padding: 12px 8px 12px 40px;
     list-style-type: none;
-    font-size: 25px;
+    /* font-size: 25px; */
     
     
 }
@@ -61,7 +67,13 @@ h2{
     cursor: pointer;
 }
 
-#button:hover{
+#timebutton{
+    font-size: 15px;
+
+
+}
+
+#button:hover, #timebutton:hover{
     background-color: palevioletred;
     cursor: pointer;
 }
@@ -70,7 +82,7 @@ h2{
 .tasks{
     padding:10px;
     margin: 10px;
-    font-size: 35px;
+    /* font-size: 35px; */
     border-radius: 25px;
     background-color:pink;
     outline: none;
@@ -81,7 +93,7 @@ h2{
     padding: 10px;
     background-color:pink;
     border: none;
-    font-size: 20px;
+    /* font-size: 20px; */
     color: red;
     outline: none;
 }
@@ -90,9 +102,9 @@ h2{
 #clock{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-size: 50px;
+    /* font-size: 50px; */
     position: relative;
-    color: grey;
+    color: rgb(44, 44, 44);
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1.5px 1.5px 3px #000000;
 }
