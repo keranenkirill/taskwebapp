@@ -6,18 +6,21 @@
         <script src="main.js"></script>
         <link href="poupmsg/style.css" rel="stylesheet">
         <script src="poupmsg/app.js"></script>
+        <script src="clock.js"></script>
     </head>
     <body>
         <div class="hellotxt">
             <h1>Hello World</h1>
             <p>here will be to do task web app!</p>
+            <button onclick="showTime()" id="timebutton">show current time</button>
+            <p id=clock></p>
         </div>
 
         <div class="clear"></div>
         <h2></h2>
 
         <div class="container">
-            <p>Here will be container for adding new notes!</p>
+            <!-- <p>Here will be container for adding new notes!</p> -->
             <input type="text" id="input" placeholder="Write your task..."></input>
             <button onclick="addElement()" id="button"> ADD </button>
         </div>

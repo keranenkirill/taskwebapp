@@ -14,9 +14,19 @@ body{
     font-size: 15px;
 }
 
+.container{
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: 10px;
+}
+
 .clear { clear: both;}
+h2{
+    padding-top: 10px;
+}
 
 #mylist{
+    width: fit-content;
     text-align: center;
     position: relative;
     padding: 12px 8px 12px 40px;
@@ -25,14 +35,20 @@ body{
 
 }
 
-#button{
+.button{
     display: inline-block;
-    background-color: rgb(218, 218, 218);
-	color: inherit;
-	font: inherit;
+    color: inherit;
 	border: 0;
 	outline: 0;
 	padding: 0;
 	transition: all 200ms ease-in;
 	cursor: pointer;
+}
+
+.delbutton{
+    background-color: green;
+}
+
+.tasks{
+    text-align: left;
 }
