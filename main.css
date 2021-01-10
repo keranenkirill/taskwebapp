@@ -44,5 +44,10 @@ h2{
 	cursor: pointer;
 }
 
+.delbutton{
+    background-color: green;
+}
 
-
+.tasks{
+    text-align: left;
+}
