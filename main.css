@@ -18,6 +18,11 @@ body{
     padding: 2px;
 }
 
+#instruction, h1 {
+    text-shadow: 1.5px 1.5px 3px #000000;
+
+}
+
 
 
 .container{
